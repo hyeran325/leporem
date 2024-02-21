@@ -1,0 +1,409 @@
+/* membership*/
+
+#membership {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.sub_banner {
+    height: 376px;
+    background: url(../images/membership_banner_bg.jpg)no-repeat;
+    position: relative;
+}
+
+.main_title {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 100%;
+    padding-top: 165px;
+    padding-bottom: 78px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 215px;
+}
+
+.benefit {
+    width: 882px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.benefit_circle {
+    width: 232px;
+    height: 232px;
+    border-radius: 50%;
+    background-color: #f3f1ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefit_circle img {
+    padding-bottom: 14px;
+}
+
+.benefit_circle h2 {
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #9c9c9c;
+    padding-bottom: 8px;
+}
+
+.benefit_circle h1 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #3e513b;
+    padding-bottom: 8px;
+}
+
+/* class */
+
+#class {
+    width: 1226px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 255px;
+}
+
+.class_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #32592d;
+    padding-bottom: 15px;
+}
+
+#class>p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 100%;
+    color: #9e9e9e;
+    padding-bottom: 36px;
+}
+
+table {
+    width: 1226px;
+    border-collapse: collapse;
+    /*셀과 셀사이의 틈을 합쳐줌*/
+    border-top: 3px solid #32592d;
+}
+
+th,
+td {
+    border: 1px solid #e1e1e1;
+    background-color: #fff;
+    color: #222;
+    height: 94px;
+}
+
+td {
+    font-size: 15px;
+    font-weight: 100%;
+    text-align: center;
+    color: #666;
+}
+
+#class table tr th:first-child {
+    border-left: none;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+
+#class table tr.first th {
+    height: 81px;
+}
+
+#class table tr.last th {
+    height: 75px;
+}
+
+#class table tr :last-child {
+    border-right: none;
+}
+
+.table_t {
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+#class>table>tr> :first-child {
+    width: 166px;
+
+}
+
+#class>table>tr> :nth-child(2) {
+    width: 212px;
+}
+
+#class>table>tr> :nth-child(3) {
+    width: 212px;
+}
+
+#class>table>tr> :nth-child(3) {
+    width: 212px;
+}
+
+#class>table>tr> :nth-child(4) {
+    width: 212px;
+}
+
+#class>table>tr> :nth-child(5) {
+    width: 212px;
+}
+
+#class>table>tr> :nth-child(6) {
+    width: 212px;
+}
+
+
+table tr td img {
+    padding-bottom: 5px;
+}
+
+.point img {
+    padding-right: 10px;
+}
+
+.m_info {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #666666;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.dot {
+    position: relative;
+}
+
+#class .m_info .dot::before {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background-color: #666;
+    vertical-align: text-top;
+    position: absolute;
+    left: -10px;
+    top: 50%;
+}
+
+
+
+/* card */
+
+#card {
+    width: 1226px;
+    margin: 0 auto;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.card_title {
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 100%;
+    color: #222;
+    padding-bottom: 15px;
+}
+
+#card>p {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 100%;
+    color: #32592d;
+    padding-bottom: 36px;
+}
+
+#card .step {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card .step li {
+    width: 385px;
+    height: 420px;
+    background-color: #f3f1ec;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+#card .step li .number {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #32592d;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#card .step li h2 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #222;
+    padding-top: 28px;
+    padding-bottom: 24px;
+}
+
+#card .step li p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #716c64;
+    padding-bottom: 50px;
+}
+
+#card .step li:nth-child(2) p {
+    padding-bottom: 29px;
+}
+
+.down_icon {
+    position: absolute;
+    bottom: 35px;
+    left: 225px;
+}
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    background-color: #222;
+    margin-top: 150px;
+
+}
+
+#footer_inner {
+    margin: 0 auto;
+}
+
+.footer_inner ul {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+    align-items: center;
+
+}
+
+.footer_inner ul li {
+    padding: 0 12px;
+    letter-spacing: 1px;
+    line-height: 100%;
+}
+
+.sns_link {
+    padding-top: 66px;
+}
+
+.facebook_icon img {
+    width: 22px;
+}
+
+.instagram_iocn img {
+    width: 22px;
+}
+
+.youtube_icon img {
+    width: 24px;
+}
+
+.info {
+    line-height: 14px;
+}
+
+.info li {
+    border-right: 1px solid #919191;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.info li a {
+    color: #919191;
+}
+
+.info li:last-child {
+    border-right: 0;
+}
+
+.customer {
+    line-height: 16px;
+}
+
+.customer li {
+    border-right: 1px solid #919191;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.customer li:last-child {
+    border-right: 0;
+}
+
+.f_add {
+    color: #919191;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 14px;
+    padding-bottom: 15px;
+}
+
+.copyright {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+    color: #919191;
+    padding-bottom: 66px;
+    letter-spacing: 1px;
+    line-height: 12px;
+}
+
+/* top_btn */
+
+.top {
+    display: none;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 10;
+}
+
+.top a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}

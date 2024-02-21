@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>membership</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos css 연결-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js 연결-->
+    <link rel="stylesheet" href="../css/sub_header.css">
+    <link rel="stylesheet" href="../css/sub_membership_style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <div class="logo"><a href="../index.html"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 798 117.2"
+                        style="enable-background:new 0 0 798 117.2;" xml:space="preserve">
+
+                        <path class="st0"
+                            d="M245.4,48.2L245.4,48.2c0.1,0.2,0.3,0.4,0.4,0.5C245.6,48.5,245.5,48.3,245.4,48.2z" />
+                        <g>
+                            <path class="st1" d="M85.3,89.5l-5.5,27.7H0v-1.5c4.1,0,7.3-4.3,7.3-16.4V18C7.3,5.9,4.1,1.5,0,1.5V0h32.8v1.5
+                   c-4,0-7.3,4.4-7.3,16.5v81.3c0,12.1,7.2,16.4,14.6,16.4h11.4c15.7,0,29.2-11,32.2-26.4L85.3,89.5z" />
+                            <path class="st1"
+                                d="M192.7,89.4l-5.5,27.8h-85.7v-1.5c4,0,7.3-4.4,7.3-16.5V17.9c0-12.1-3.3-16.4-7.3-16.4V0h81.4l6.1,30.6
+                   l-1.4,0.3c-3.4-17.1-18.5-29.3-35.8-29.3h-12.4C134,1.5,127,5.8,127,17.9v39.9h23.7c9.9,0,17.9-8.1,17.9-18h1.5v39h-1.5
+                   c0-10.7-8.7-19.4-19.4-19.4H127v39.8c0,12.1,7.7,16.5,14.2,16.5h17.6c15.7,0,29.3-11.2,32.4-26.6L192.7,89.4z" />
+                            <path class="st1" d="M265.1,0c25.5,0,38.3,11.2,38.3,27.4c0,31.3-41.9,35.9-59.8,36.5v-1.5c20.1-2.2,39.7-14.3,39.7-34.8
+                   c0-14.7-11.7-26-28.5-26h-5.4c-6.6,0-12,4.4-12,16.5v81.3c0,12.1,3.3,16.4,7.3,16.4v1.5H212v-1.5c4,0,7.3-4.3,7.3-16.4V18
+                   c0-12.1-3.3-16.5-7.3-16.5V0H265.1z" />
+                            <path class="st1"
+                                d="M439.9,58.4c0,32.4-22.2,58.8-58.5,58.8s-58.7-26.4-58.7-58.8c0-32.4,22.3-58.9,58.7-58.9S439.9,26,439.9,58.4
+                   z M420.3,58.4c0-31.5-12.7-57.4-39-57.4c-26.4,0-39,25.9-39,57.4c0,31.5,12.5,57.3,39,57.3C407.7,115.7,420.3,89.9,420.3,58.4z" />
+                            <path class="st1" d="M548.3,98.7c0,11.6-6.5,18.5-14.5,18.5c-25.6,0-23.4-53.3-47-53.3v-1.5c23.3,0,39-15.1,39-32.4
+                   c0-16.8-11.3-28.5-28.1-28.5h-5.2c-7.7,0-12.3,4.4-12.3,16.5v81.3c0,12.1,3.3,16.4,7.4,16.4v1.5h-32.9v-1.5c4.1,0,7.4-4.3,7.4-16.4
+                   V18c0-12.1-3.3-16.5-7.4-16.5V0h47.5c35,0,42.6,16.5,42.6,28.8c0,15-12.4,32.1-44.9,35.1c18.9,6.6,26.6,32.2,39.4,32.2
+                   c2.9,0,6.1-1.4,8-5.5C548,93.5,548.3,96.3,548.3,98.7z" />
+                            <path class="st1"
+                                d="M661.5,89.4l-5.5,27.8h-85.7v-1.5c4,0,7.3-4.4,7.3-16.5V17.9c0-12.1-3.3-16.4-7.3-16.4V0h81.4l6.1,30.6
+                   l-1.4,0.3C653,13.8,637.9,1.5,620.6,1.5h-12.4c-5.4,0-12.4,4.3-12.4,16.4v39.9h23.7c9.9,0,17.9-8.1,17.9-18h1.5v39h-1.5
+                   c0-10.7-8.7-19.4-19.4-19.4h-22.2v39.8c0,12.1,7.7,16.5,14.2,16.5h17.6c15.7,0,29.3-11.2,32.4-26.6L661.5,89.4z" />
+                            <path class="st1" d="M798,1.5c-4.1,0-7.4,4.4-7.4,16.5v81.3c0,6.1,0.8,10.2,2.2,12.8c1.4,2.6,3.2,3.6,5.2,3.6v1.5h-32.9v-1.5
+                   c4.1,0,7.4-4.3,7.4-16.4V5l-40.4,112.2h-1.4L689.6,14.5v69.7c0,18.6,2.2,29.3,7.3,31.5v1.5h-16.1v-1.5c5.6-3.4,7.3-19.4,7.3-31.5
+                   V18c0-6.2-0.8-10.2-2.2-12.8c-1.2-2.6-3.2-3.7-5.1-3.7V0h23.1L740,90.5l32.5-90.3V0H798V1.5z" />
+                        </g>
+                    </svg>
+                </a></div>
+            <ul id="gnb">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="./shop.html">SHOP</a>
+                    <div class="sub_box">
+                        <ul class="sub_gnb">
+                            <li><a href="./shop_bodycare.html">body care</a></li>
+                            <li><a href="#">hand care</a></li>
+                            <li><a href="#">hair care</a></li>
+                            <li><a href="#">home & perfume</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub_bg"></div>
+                </li>
+                <li><a href="./membership.html">MEMBERSHIP</a></li>
+                <li><a href="./event.html">EVENT</a></li>
+                <li><a href="./community_notice.html">COMMUNITY</a>
+                    <div class="sub_box">
+                        <ul class="sub_gnb">
+                            <li><a href="./community_notice.html">notice</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">1:1문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub_bg"></div>
+                </li>
+            </ul>
+            <ul class="link">
+                <li class="search"><a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384"
+                            style="enable-background:new 0 0 384 384;" xml:space="preserve">
+
+                            <path class="st0" d="M216.9,0.2c-92.3,0-167.4,75.1-167.4,167.4c0,37.8,12.6,72.6,33.7,100.7L7.2,344.2c-9,9-9,23.5,0,32.5
+                   c4.5,4.5,10.4,6.7,16.3,6.7s11.8-2.2,16.3-6.7l75.9-75.9c28.1,21.4,63.2,34.2,101.2,34.2c92.3,0,167.4-75.1,167.4-167.4
+                   C384.3,75.3,309.2,0.2,216.9,0.2z M216.9,288.4c-66.6,0-120.8-54.2-120.8-120.8S150.3,46.8,216.9,46.8S337.7,101,337.7,167.6
+                   S283.5,288.4,216.9,288.4z" />
+                        </svg>
+                    </a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">CART</a></li>
+            </ul>
+        </div><!--header_inner-->
+    </div><!--header-->
+    <div id="membership">
+        <div class="sub_banner">
+            <h1 class="main_title">MEMBERSHIP</h1>
+        </div>
+        <ul class="benefit">
+            <li class="benefit_circle" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
+                <div>
+                    <img src="../images/benefit_01.png" alt="">
+                    <h2>더 풍성하게!</h2>
+                    <h1>늘어난 적립금</h1>
+                </div>
+            </li>
+            <li class="benefit_circle" data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
+                <div>
+                    <img src="../images/benefit_02.png" alt="">
+                    <h2>더 행복하게!</h2>
+                    <h1>특별한 생일 쿠폰</h1>
+                </div>
+            </li>
+            <li class="benefit_circle" data-aos="fade-down" data-aos-duration="800" data-aos-delay="600">
+                <div>
+                    <img src="../images/benefit_02.png" alt="">
+                    <h2>더 특별하게!</h2>
+                    <h1>스페셜 기프트</h1>
+                </div>
+            </li>
+        </ul>
+    </div><!--membership-->
+    <div id="class">
+        <h1 class="class_title" data-aos="fade-right" data-aos-delay="600" data-aos-duration="800">등급별 혜택</h1>
+        <p data-aos="fade-right" data-aos-delay="600" data-aos-duration="800">르포엠 회원만이 누릴 수 있는 다양하고, 풍성한 혜택을 지금 만나보세요
+        </p>
+
+        <!-- 테이블 -->
+        <table data-aos="fade-up" data-aos-duration="800" data-aos-delay="600">
+            <tr class="first">
+                <th>구분</th>
+                <th class="table_t">BRONZE</th>
+                <th class="table_t">SILVER</th>
+                <th class="table_t">GOLD</th>
+                <th class="table_t">PLATINUM</th>
+                <th class="table_t">DIAMOND</th>
+            </tr>
+            <tr>
+                <th>등급기준</th>
+                <td>르포엠 공식몰 회원</td>
+                <td>1원 이상<br>
+                    ~ 15만원 미만</td>
+                <td>15만원 이상<br>
+                    ~ 30만원 미만</td>
+                <td>30만원 이상<br>
+                    ~ 50만원 미만</td>
+                <td>50만원 이상</td>
+            </tr>
+            <tr>
+                <th>신규가입 혜택</th>
+                <td>10%할인, 무료배송,<br>
+                    최대 4000p 적립</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>생일쿠폰</th>
+                <td>
+                </td>
+                <td>
+                    <p><img src="../images/coupon_5000.png" alt="5,000원 쿠폰"></p>
+                    5,000원 쿠폰
+                </td>
+                <td>
+                    <p><img src="../images/coupon_5000.png" alt="5,000원 쿠폰"></p>
+                    5,000원 쿠폰
+                </td>
+                <td>
+                    <p><img src="../images/coupon_5000.png" alt="5,000원 쿠폰"></p>
+                    5,000원 쿠폰
+                </td>
+                <td>
+                    <p><img src="../images/coupon_5000.png" alt="5,000원 쿠폰"></p>
+                    5,000원 쿠폰
+                </td>
+            </tr>
+            <tr>
+                <th>신상품 쿠폰</th>
+                <td></td>
+                <td></td>
+                <td>
+                    <p><img src="../images/coupon_20.png" alt="20% 쿠폰"></p>
+                    20% 쿠폰
+                </td>
+                <td>
+                    <p><img src="../images/coupon_20.png" alt="20% 쿠폰"></p>
+                    20% 쿠폰
+                </td>
+                </td>
+                <td>
+                    <p><img src="../images/coupon_20.png" alt="20% 쿠폰"></p>
+                    20% 쿠폰
+                </td>
+                </td>
+            </tr>
+            <tr>
+                <th>내맘대로 쿠폰</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <p><img src="../images/coupon_50.png" alt="50% 쿠폰"></p>
+                    50% 쿠폰
+                </td>
+                <td>
+                    <p><img src="../images/coupon_50.png" alt="50% 쿠폰"></p>
+                    50% 쿠폰
+                </td>
+            </tr>
+            <tr>
+                <th>무료 배송 쿠폰</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <p><img src="../images/coupon_delivery.png" alt="무료 배송 쿠폰"></p>
+                    무료 배송 쿠폰
+                </td>
+                <td>
+                    <p><img src="../images/coupon_delivery.png" alt="무료 배송 쿠폰"></p>
+                    무료 배송 쿠폰
+                </td>
+            </tr>
+            <tr>
+                <th>DIAMOND<br>
+                    뷰티 키프트</th>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    연 2회(1월,7월)
+                </td>
+                <td>
+                    연 2회(1월,7월)
+                </td>
+            </tr>
+            <tr>
+                <th>적립금</th>
+                <td></td>
+                <td class="point">
+                    <img src="../images/coin.png" alt="포인트">2%
+                </td>
+                <td class="point">
+                    <img src="../images/coin.png" alt="포인트">5%
+                </td>
+                <td class="point">
+                    <img src="../images/coin.png" alt="포인트">5%
+                </td>
+                <td class="point">
+                    <img src="../images/coin.png" alt="포인트">10%
+                </td>
+            </tr>
+            <tr class="last">
+                <th>배송</th>
+                <td colspan="5">3만원 이상 배송비 무료</td>
+            </tr>
+
+        </table><!--table-->
+        <ul class="m_info">
+            <li class="dot">등급 산정 기준 : 직전 6개월 누적 실결제금액 기준, 매월 1일 업데이트</li>
+            <li class="dot">대량구매로 인한 누적 금액은 등급기준에서 제외됩니다.</li>
+            <li class="dot">회원등급 적립 : [{(총 상품구매금액 - 할인금액) × 회원등급 적립률(%)} × {( 실결제금액 - 배송비 ) / 총 상품구매금액}]<br>
+            </li>
+            <li>(회원등급 적립 계산식의 '총 상품구매금액 - 할인금액'은 '회원등급 기본 적립금 지급 기준' 설정을 따릅니다.)</li>
+        </ul>
+    </div><!--class-->
+    <div id="card">
+        <h1 class="card_title" data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">르포엠 모바일 카드를 이용하면 더
+            큰 혜택을 받을 수 있어요
+        </h1>
+        <p data-aos="fade-left" data-aos-delay="200" data-aos-duration="800">최대 5% 적립</p>
+        <ul class="step" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
+            <li>
+                <div>
+                    <h1 class="number">1</h1>
+                    <h2>르포엠 앱 다운로드</h2>
+                    <p>QR코드로를 스캔하시면<br>
+                        앱 다운로드 페이지로 이동합니다.</p>
+                    <img src="../images/step_01.png" alt="QR코드 이미지">
+                    <img src="../images/step_01_i.png" alt="다운로드 아이콘" class="down_icon">
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h1 class="number">2</h1>
+                    <h2>로그인</h2>
+                    <p>앱 로그인을 해주세요.<br>
+                        아직 르포엠 회원이 아니시라면<br>
+                        회원가입을 해주세요.</p>
+                    <img src="../images/step_02.png" alt="로그인 이미지">
+                    <img src="../images/step_02_i.png" alt="자물쇠 아이콘" class="down_icon">
+                </div>
+            </li>
+            <li>
+                <div>
+                    <h1 class="number">3</h1>
+                    <h2>모바일 카드로 적립/사용</h2>
+                    <p>앱에서 발급받은 멤버쉽 바코드로 편리하게<br>
+                        포인트를 적립하고 사용하세요.</p>
+                    <img src="../images/step_03.png" alt="바코드 이미지">
+                    <img src="../images/step_03_i.png" alt="코인 아이콘" class="down_icon">
+                </div>
+            </li>
+        </ul>
+
+    </div><!--mobile_card-->
+
+    <div id="footer">
+        <div class="footer_inner">
+            <ul class="sns_link">
+                <li class="facebook_icon"><a href="#"><img src="../images/icon_facebook_l.png" alt="페이스북 바로가기"></a></li>
+                <li class="instagram_iocn"><a href="#"><img src="../images/icon_instagram_l.png" alt="인스타그램 바로가기"></a>
+                </li>
+                <li class="youtube_icon"><a href="#"><img src="../images/icon_youtube_l.png" alt="유튜브 바로가기"></a></li>
+            </ul>
+            <ul class="info">
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">이메일무단수집금지</a></li>
+            </ul>
+            <ul class="customer">
+                <li>고객센터&nbsp;&nbsp;080-123-4567</li>
+                <li>이메일&nbsp;&nbsp;lepoem@lepoem.com</li>
+            </ul>
+            <p class="f_add">대표 : 김혜란 서울시 강남구 학동로 401 10층 사업자등록번호 : 108-86-00365 통신판매업신고번호 : 제2022-서울강남-3344호</p>
+            <p class="copyright">COPYRIGHT © lepoem ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+    <div class="top">
+        <a href="#shop"><img src="../images/top_arrow.png" alt="Back to top"></a>
+    </div>
+
+
+    <!-- 라이브러리 파일 -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <!--스크립트 파일-->
+    <script src="../js/script.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>about</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--aos css 연결-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--aos js 연결-->
+    <link rel="stylesheet" href="../css/sub_header.css">
+    <link rel="stylesheet" href="../css/jquery.fullPage.css">
+    <link rel="stylesheet" href="../css/sub_about_style.css">
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon">
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <div class="logo"><a href="../index.html"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 798 117.2"
+                        style="enable-background:new 0 0 798 117.2;" xml:space="preserve">
+
+                        <path class="st0"
+                            d="M245.4,48.2L245.4,48.2c0.1,0.2,0.3,0.4,0.4,0.5C245.6,48.5,245.5,48.3,245.4,48.2z" />
+                        <g>
+                            <path class="st1" d="M85.3,89.5l-5.5,27.7H0v-1.5c4.1,0,7.3-4.3,7.3-16.4V18C7.3,5.9,4.1,1.5,0,1.5V0h32.8v1.5
+                   c-4,0-7.3,4.4-7.3,16.5v81.3c0,12.1,7.2,16.4,14.6,16.4h11.4c15.7,0,29.2-11,32.2-26.4L85.3,89.5z" />
+                            <path class="st1"
+                                d="M192.7,89.4l-5.5,27.8h-85.7v-1.5c4,0,7.3-4.4,7.3-16.5V17.9c0-12.1-3.3-16.4-7.3-16.4V0h81.4l6.1,30.6
+                   l-1.4,0.3c-3.4-17.1-18.5-29.3-35.8-29.3h-12.4C134,1.5,127,5.8,127,17.9v39.9h23.7c9.9,0,17.9-8.1,17.9-18h1.5v39h-1.5
+                   c0-10.7-8.7-19.4-19.4-19.4H127v39.8c0,12.1,7.7,16.5,14.2,16.5h17.6c15.7,0,29.3-11.2,32.4-26.6L192.7,89.4z" />
+                            <path class="st1" d="M265.1,0c25.5,0,38.3,11.2,38.3,27.4c0,31.3-41.9,35.9-59.8,36.5v-1.5c20.1-2.2,39.7-14.3,39.7-34.8
+                   c0-14.7-11.7-26-28.5-26h-5.4c-6.6,0-12,4.4-12,16.5v81.3c0,12.1,3.3,16.4,7.3,16.4v1.5H212v-1.5c4,0,7.3-4.3,7.3-16.4V18
+                   c0-12.1-3.3-16.5-7.3-16.5V0H265.1z" />
+                            <path class="st1"
+                                d="M439.9,58.4c0,32.4-22.2,58.8-58.5,58.8s-58.7-26.4-58.7-58.8c0-32.4,22.3-58.9,58.7-58.9S439.9,26,439.9,58.4
+                   z M420.3,58.4c0-31.5-12.7-57.4-39-57.4c-26.4,0-39,25.9-39,57.4c0,31.5,12.5,57.3,39,57.3C407.7,115.7,420.3,89.9,420.3,58.4z" />
+                            <path class="st1" d="M548.3,98.7c0,11.6-6.5,18.5-14.5,18.5c-25.6,0-23.4-53.3-47-53.3v-1.5c23.3,0,39-15.1,39-32.4
+                   c0-16.8-11.3-28.5-28.1-28.5h-5.2c-7.7,0-12.3,4.4-12.3,16.5v81.3c0,12.1,3.3,16.4,7.4,16.4v1.5h-32.9v-1.5c4.1,0,7.4-4.3,7.4-16.4
+                   V18c0-12.1-3.3-16.5-7.4-16.5V0h47.5c35,0,42.6,16.5,42.6,28.8c0,15-12.4,32.1-44.9,35.1c18.9,6.6,26.6,32.2,39.4,32.2
+                   c2.9,0,6.1-1.4,8-5.5C548,93.5,548.3,96.3,548.3,98.7z" />
+                            <path class="st1"
+                                d="M661.5,89.4l-5.5,27.8h-85.7v-1.5c4,0,7.3-4.4,7.3-16.5V17.9c0-12.1-3.3-16.4-7.3-16.4V0h81.4l6.1,30.6
+                   l-1.4,0.3C653,13.8,637.9,1.5,620.6,1.5h-12.4c-5.4,0-12.4,4.3-12.4,16.4v39.9h23.7c9.9,0,17.9-8.1,17.9-18h1.5v39h-1.5
+                   c0-10.7-8.7-19.4-19.4-19.4h-22.2v39.8c0,12.1,7.7,16.5,14.2,16.5h17.6c15.7,0,29.3-11.2,32.4-26.6L661.5,89.4z" />
+                            <path class="st1" d="M798,1.5c-4.1,0-7.4,4.4-7.4,16.5v81.3c0,6.1,0.8,10.2,2.2,12.8c1.4,2.6,3.2,3.6,5.2,3.6v1.5h-32.9v-1.5
+                   c4.1,0,7.4-4.3,7.4-16.4V5l-40.4,112.2h-1.4L689.6,14.5v69.7c0,18.6,2.2,29.3,7.3,31.5v1.5h-16.1v-1.5c5.6-3.4,7.3-19.4,7.3-31.5
+                   V18c0-6.2-0.8-10.2-2.2-12.8c-1.2-2.6-3.2-3.7-5.1-3.7V0h23.1L740,90.5l32.5-90.3V0H798V1.5z" />
+                        </g>
+                    </svg>
+                </a></div>
+            <ul id="gnb">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="./shop.html">SHOP</a>
+                    <div class="sub_box">
+                        <ul class="sub_gnb">
+                            <li><a href="./shop_bodycare.html">body care</a></li>
+                            <li><a href="#">hand care</a></li>
+                            <li><a href="#">hair care</a></li>
+                            <li><a href="#">home & perfume</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub_bg"></div>
+                </li>
+                <li><a href="./membership.html">MEMBERSHIP</a></li>
+                <li><a href="./event.html">EVENT</a></li>
+                <li><a href="./community_notice.html">COMMUNITY</a>
+                    <div class="sub_box">
+                        <ul class="sub_gnb">
+                            <li><a href="./community_notice.html">notice</a></li>
+                            <li><a href="#">faq</a></li>
+                            <li><a href="#">1:1문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub_bg"></div>
+                </li>
+            </ul>
+            <ul class="link">
+                <li class="search"><a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384"
+                            style="enable-background:new 0 0 384 384;" xml:space="preserve">
+
+                            <path class="st0" d="M216.9,0.2c-92.3,0-167.4,75.1-167.4,167.4c0,37.8,12.6,72.6,33.7,100.7L7.2,344.2c-9,9-9,23.5,0,32.5
+                   c4.5,4.5,10.4,6.7,16.3,6.7s11.8-2.2,16.3-6.7l75.9-75.9c28.1,21.4,63.2,34.2,101.2,34.2c92.3,0,167.4-75.1,167.4-167.4
+                   C384.3,75.3,309.2,0.2,216.9,0.2z M216.9,288.4c-66.6,0-120.8-54.2-120.8-120.8S150.3,46.8,216.9,46.8S337.7,101,337.7,167.6
+                   S283.5,288.4,216.9,288.4z" />
+                        </svg>
+                    </a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">CART</a></li>
+            </ul>
+        </div><!--header_inner-->
+    </div><!--header-->
+
+    <div id="fullpage">
+        <div class="section" id="story"><!--클래스section필수. 미리 정해져있는 모양-->
+            <div class="story_inner">
+                <div class="story_ttitle">
+                    <h3>Inspired by Nature</h3>
+                    <h1>우리는 자연으로부터 얻은<br>
+                        착한 성분의 힘을 믿습니다.</h1>
+                    <p>당신의 피부는 자극적인 화학성분보다<br>
+                        피부 친화적인 자연유래 성분을 더 좋아합니다.<br>
+                        바야흐로 안심 케어의 시대.<br>
+                        피부를 편안하게, 건강하게 만들어주세요.</p>
+                </div>
+            </div>
+        </div><!--story-->
+
+        <div class="section" id="about">
+            <div class="about_inner">
+                <div class="logo_box">
+                    <div class="text_box">
+                        <h1 data-aos="fade-up" data-aos-duration="500"><img src="../images/sub_logo.png" alt="르포엠 로고">
+                        </h1>
+                        <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">향은 분위기를 바꾸고, 활력을 주며, 자신감을
+                            키워주는데<br> 그 어떠한 것보다 강력한 힘을
+                            지니고 있습니다.<br>
+                            좋은 향 만으로도 경험하고 느끼며 생각하는 것이 매우 달라질 수 있습니다.</p>
+                        <h2 class="logo_text" data-aos="fade-up" data-aos-delay="800" data-aos-duration="500">르포엠과 함께
+                            나만의 향을 찾아보세요.</h2>
+                    </div>
+                </div><!--logo_box-->
+                <div class="vision_box">
+                    <div class="vision_inner">
+                        <div class="vision">
+                            <div class="vision_title" data-aos="fade-down" data-aos-duration="800" data-aos-delay="400">
+                                VISION
+                            </div>
+                            <div class="vision_text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="600">
+                                현대인들의 피부 고민에 맞는<br>
+                                최적의 스킨케어 솔루션을 제공하고자 하며,<br>
+                                영향력 있게 새로운 트렌드를 만들어가는<br>
+                                컨템포러리 뷰티 브랜드를 지향합니다.
+                            </div>
+                        </div>
+                    </div><!--vision_inner-->
+                    <div class="mission_inner">
+                        <div class="mission">
+                            <div class="vision_title" data-aos="fade-down" data-aos-duration="800" data-aos-delay="700">
+                                MISSION
+                            </div>
+                            <div class="vision_text" data-aos="fade-down" data-aos-duration="800" data-aos-delay="900">
+                                르포엠은 넘쳐나는 정보 속에서<br>
+                                피부 본연의 가치를 최우선으로 생각하는<br>
+                                사람들에게 진실되고 절제된 아름다움을<br>
+                                선사하고자 합니다.
+                            </div>
+                        </div>
+                    </div><!--mission_inner-->
+                </div><!--vision_inner-->
+            </div><!--about_inner-->
+        </div><!--about-->
+
+        <div class="section" id="make">
+            <div class="basic">
+                <div class="basic_img" data-aos="fade-right" data-aos-duration="400">
+                    <img src="../images/make_01.jpg" alt="연구 이미지1">
+                </div>
+                <div class="basic_text">
+                    <h1 data-aos="fade-right" data-aos-duration="900" data-aos-delay="200">Allure<br>
+                        from Basic</h1>
+                    <p data-aos="fade-right" data-aos-delay="400" data-aos-duration="800">당신의 라이프스타일까지 생각한 르포엠<br>
+                        기존 틀을 깬 새롭고 효과 빠른<br>
+                        제품에 대한 르포엠의 끊임없는 연구</p>
+                </div>
+            </div>
+            <div class="safe">
+                <div class="safe_text">
+                    <h1 data-aos="fade-left" data-aos-delay="700" data-aos-duration="800">Safe<br>
+                        Ingredient</h1>
+                    <p data-aos="fade-left" data-aos-delay="900" data-aos-duration="800">피부가 걱정 없이 편안하게 사용할 수 있는<br>
+                        엄선된 100% 비건 성분으로 채우고,<br>
+                        저자극 인체적용시험을 통과한 제품만 출시합니다.</p>
+                </div>
+                <div class="safe_img" data-aos="fade-left" data-aos-duration="400" data-aos-delay="500">
+                    <img src="../images/make_02.jpg" alt="연구 이미지2">
+                </div>
+            </div>
+        </div><!--make-->
+
+        <div class="section" id="nature">
+            <div class="nature_inner">
+                <ul>
+                    <li class="vegan" data-aos="fade-up" data-aos-duration="600">
+                        <div class="nature_circle">
+                            <img src="../images/nature_icon01.png" alt="비건 아이콘">
+                        </div>
+                        <div>
+                            <h1 class="nature_title">Vegan</h1>
+                            <p>제품의 내용물에 불필요한 동물성 원료를 처방하지 않는<br>
+                                비건 제품을 점차 확대해 나가겠습니다.</p>
+                        </div>
+                    </li>
+                    <li class="plastic" data-aos="fade-down" data-aos-duration="800" data-aos-delay="100">
+                        <div class="nature_circle">
+                            <img src="../images/nature_icon02.png" alt="재활용 아이콘">
+                        </div>
+                        <h1 class="nature_title">Less Plastic</h1>
+                        <p>분리배출이 용이한 단일 소재를 사용한 제품을 늘려나가고,<br>
+                            버려진 플라스틱과 유리를 재가공하여 만든 재생 원료를<br>
+                            제품 용기와 캡에 적용하는 비율을 높여 나가겠습니다.</p>
+                    </li>
+                    <li class="earth" data-aos="fade-up" data-aos-duration="600">
+                        <div class="nature_circle">
+                            <img src="../images/nature_icon03.png" alt="지구 아이콘">
+                        </div>
+                        <h1 class="nature_title">Recycled Papers</h1>
+                        <p>플라스틱 비닐 소재의 포장재 대신<br>
+                            FSC 인증을 받은 종이 포장재와 박스를 사용하여<br>
+                            환경에 불필요하게 미치는 영향을 최소화 했습니다.</p>
+                    </li>
+                </ul>
+            </div><!--nature_inner-->
+        </div><!--nature-->
+
+        <div class="section" id="leporem">
+            <div class="leporem_inner">
+                <div class="leporem_text">
+                    <h1 data-aos="zoom-in" data-aos-duration="400">자연을 모티브로 한 르포엠, 지금 바로 경험해보세요.</h1>
+                    <h2 data-aos="flip-up" data-aos-duration="1000" data-aos-delay="300"><img
+                            src="../images/sub_logo_w.png" alt=""></h2>
+                </div>
+            </div>
+
+        </div>
+        <div class="section" id="store">
+            <div class="store_inner">
+                <h1 class="store_title">STORE</h1>
+                <ul class="tabs">
+                    <li class="store_tab tab_bg1"><a href="#tab1">롯데백화점 본점</a></li>
+                    <li class="store_tab tab_bg2"><a href="#tab2">더현대 서울점</a></li>
+                </ul>
+
+                <div class="tab_container">
+
+                    <div id="tab1" class="tab_content">
+                        <div class="map_inner">
+                            <div class="map">
+                                <img src="../images/store_01.jpg" alt="스토어 이미지">
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li class="content_icon"><img src="../images/icon_add.png" alt="주소">
+                                    </li>
+                                    <li>
+                                        <h1 class="content_title">주소</h1>
+                                    </li>
+                                    <li class="content_i">
+                                        <p>부산광역시 부산진구 가야대로 772<br>
+                                            롯데 백화점 부산 본점 지하 1층</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="content_icon"><img src="../images/icon_tel.png" alt="고객센터">
+                                    </li>
+                                    <li>
+                                        <h1 class="content_title">고객센터</h1>
+                                    </li>
+                                    <li class="content_i">
+                                        <p>051-123-4567<br>
+                                            info@leporem.com</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="content_icon"><img src="../images/icon_time.png" alt="업무시간">
+                                    </li>
+                                    <li>
+                                        <h1 class="content_title">업무시간</h1>
+                                    </li>
+                                    <li class="content_i">
+                                        <p>월-금 : 9:30 - 18:00<br>
+                                            주말 및 공휴일 휴무</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div><!--tab1-->
+
+                    <div id="tab2" class="tab_content">
+                        <div class="map_inner">
+                            <div class="map">
+                                <img src="../images/store_02.jpg" alt="스토어 이미지">
+                            </div>
+                            <div class="content">
+                                <ul>
+                                    <li class="content_icon"><img src="../images/icon_add.png" alt="주소">
+                                    </li>
+                                    <li>
+                                        <h1 class="content_title">주소</h1>
+                                    </li>
+                                    <li class="content_i">
+                                        <p>서울시 영등포구 여의대로 108<br>
+                                            더현대 서울 1F</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="content_icon"><img src="../images/icon_tel.png" alt="고객센터">
+                                    </li>
+                                    <li>
+                                        <h1 class="content_title">고객센터</h1>
+                                    </li>
+                                    <li class="content_i">
+                                        <p>02-503-2467<br>
+                                            info@leporem.com</p>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li class="content_icon"><img src="../images/icon_time.png" alt="업무시간">
+                                    </li>
+                                    <li>
+                                        <h1 class="content_title">업무시간</h1>
+                                    </li>
+                                    <li class="content_i">
+                                        <p>월-금 : 9:30 - 18:00<br>
+                                            주말 및 공휴일 휴무</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--tab2-->
+
+                </div><!--tab_container-->
+            </div>
+        </div><!--store-->
+
+
+        <div class="section fp-auto-height">
+            <div id="footer">
+                <div class="footer_inner">
+                    <ul class="sns_link">
+                        <li class="facebook_icon"><a href="#"><img src="../images/icon_facebook_l.png"
+                                    alt="페이스북 바로가기"></a></li>
+                        <li class="instagram_iocn"><a href="#"><img src="../images/icon_instagram_l.png"
+                                    alt="인스타그램 바로가기"></a>
+                        </li>
+                        <li class="youtube_icon"><a href="#"><img src="../images/icon_youtube_l.png" alt="유튜브 바로가기"></a>
+                        </li>
+                    </ul>
+                    <ul class="info">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#">이메일무단수집금지</a></li>
+                    </ul>
+                    <ul class="customer">
+                        <li>고객센터&nbsp;&nbsp;080-123-4567</li>
+                        <li>이메일&nbsp;&nbsp;lepoem@lepoem.com</li>
+                    </ul>
+                    <p class="copyright">COPYRIGHT © lepoem ALL RIGHTS RESERVED.</p>
+                </div>
+            </div>
+        </div>
+    </div><!--full page-->
+
+
+    <div class="top">
+        <a href="#firstPage"><img src="../images/top_arrow.png" alt="Back to top"></a>
+    </div>
+
+
+
+
+
+
+    <!-- 라이브러리 파일 -->
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <!--스크립트 파일-->
+    <script src="../js/script.js"></script>
+    <script src="../js/tab.js"></script>
+
+
+
+    <script src="https://code.jquery.com/ui/1.9.1/jquery-ui.min.js"
+        integrity="sha256-UezNdLBLZaG/YoRcr48I68gr8pb5gyTBM+di5P8p6t8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../js/jquery.fullPage.js"></script>
+
+
+    <script>
+        AOS.init();
+
+        $('[data-aos]').each(function () { $(this).addClass("aos-init"); });
+
+        $(document).ready(function () {
+            $("#fullpage").fullpage({
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+                navigation: true,
+                navigationPosition: 'right',
+                navigationTooltips: ['Story', 'About', 'Make', 'Nature', 'Leporem', 'Store'],
+                onLeave: function () {
+                    $('.section [data-aos]').each(function () {
+                        $(this).removeClass("aos-animate")
+                    });
+                },
+                onSlideLeave: function () {
+                    $('.slide [data-aos]').each(function () {
+                        $(this).removeClass("aos-animate")
+                    });
+                },
+                afterSlideLoad: function () {
+                    $('.slide.active [data-aos]').each(function () {
+                        $(this).addClass("aos-animate")
+                    });
+                },
+                afterLoad: function () {
+                    $('.section.active [data-aos]').each(function () {
+                        $(this).addClass("aos-animate")
+                    });
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>

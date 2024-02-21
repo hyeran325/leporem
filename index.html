@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lopoem</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- 웹폰트 -->
+    <link rel="stylesheet" href="./font/pretendard.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <div class="logo"><a href="./index.html"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 798 117.2"
+                        style="enable-background:new 0 0 798 117.2;" xml:space="preserve">
+
+                        <path class="st0"
+                            d="M245.4,48.2L245.4,48.2c0.1,0.2,0.3,0.4,0.4,0.5C245.6,48.5,245.5,48.3,245.4,48.2z" />
+                        <g>
+                            <path class="st1" d="M85.3,89.5l-5.5,27.7H0v-1.5c4.1,0,7.3-4.3,7.3-16.4V18C7.3,5.9,4.1,1.5,0,1.5V0h32.8v1.5
+                   c-4,0-7.3,4.4-7.3,16.5v81.3c0,12.1,7.2,16.4,14.6,16.4h11.4c15.7,0,29.2-11,32.2-26.4L85.3,89.5z" />
+                            <path class="st1"
+                                d="M192.7,89.4l-5.5,27.8h-85.7v-1.5c4,0,7.3-4.4,7.3-16.5V17.9c0-12.1-3.3-16.4-7.3-16.4V0h81.4l6.1,30.6
+                   l-1.4,0.3c-3.4-17.1-18.5-29.3-35.8-29.3h-12.4C134,1.5,127,5.8,127,17.9v39.9h23.7c9.9,0,17.9-8.1,17.9-18h1.5v39h-1.5
+                   c0-10.7-8.7-19.4-19.4-19.4H127v39.8c0,12.1,7.7,16.5,14.2,16.5h17.6c15.7,0,29.3-11.2,32.4-26.6L192.7,89.4z" />
+                            <path class="st1" d="M265.1,0c25.5,0,38.3,11.2,38.3,27.4c0,31.3-41.9,35.9-59.8,36.5v-1.5c20.1-2.2,39.7-14.3,39.7-34.8
+                   c0-14.7-11.7-26-28.5-26h-5.4c-6.6,0-12,4.4-12,16.5v81.3c0,12.1,3.3,16.4,7.3,16.4v1.5H212v-1.5c4,0,7.3-4.3,7.3-16.4V18
+                   c0-12.1-3.3-16.5-7.3-16.5V0H265.1z" />
+                            <path class="st1"
+                                d="M439.9,58.4c0,32.4-22.2,58.8-58.5,58.8s-58.7-26.4-58.7-58.8c0-32.4,22.3-58.9,58.7-58.9S439.9,26,439.9,58.4
+                   z M420.3,58.4c0-31.5-12.7-57.4-39-57.4c-26.4,0-39,25.9-39,57.4c0,31.5,12.5,57.3,39,57.3C407.7,115.7,420.3,89.9,420.3,58.4z" />
+                            <path class="st1" d="M548.3,98.7c0,11.6-6.5,18.5-14.5,18.5c-25.6,0-23.4-53.3-47-53.3v-1.5c23.3,0,39-15.1,39-32.4
+                   c0-16.8-11.3-28.5-28.1-28.5h-5.2c-7.7,0-12.3,4.4-12.3,16.5v81.3c0,12.1,3.3,16.4,7.4,16.4v1.5h-32.9v-1.5c4.1,0,7.4-4.3,7.4-16.4
+                   V18c0-12.1-3.3-16.5-7.4-16.5V0h47.5c35,0,42.6,16.5,42.6,28.8c0,15-12.4,32.1-44.9,35.1c18.9,6.6,26.6,32.2,39.4,32.2
+                   c2.9,0,6.1-1.4,8-5.5C548,93.5,548.3,96.3,548.3,98.7z" />
+                            <path class="st1"
+                                d="M661.5,89.4l-5.5,27.8h-85.7v-1.5c4,0,7.3-4.4,7.3-16.5V17.9c0-12.1-3.3-16.4-7.3-16.4V0h81.4l6.1,30.6
+                   l-1.4,0.3C653,13.8,637.9,1.5,620.6,1.5h-12.4c-5.4,0-12.4,4.3-12.4,16.4v39.9h23.7c9.9,0,17.9-8.1,17.9-18h1.5v39h-1.5
+                   c0-10.7-8.7-19.4-19.4-19.4h-22.2v39.8c0,12.1,7.7,16.5,14.2,16.5h17.6c15.7,0,29.3-11.2,32.4-26.6L661.5,89.4z" />
+                            <path class="st1" d="M798,1.5c-4.1,0-7.4,4.4-7.4,16.5v81.3c0,6.1,0.8,10.2,2.2,12.8c1.4,2.6,3.2,3.6,5.2,3.6v1.5h-32.9v-1.5
+                   c4.1,0,7.4-4.3,7.4-16.4V5l-40.4,112.2h-1.4L689.6,14.5v69.7c0,18.6,2.2,29.3,7.3,31.5v1.5h-16.1v-1.5c5.6-3.4,7.3-19.4,7.3-31.5
+                   V18c0-6.2-0.8-10.2-2.2-12.8c-1.2-2.6-3.2-3.7-5.1-3.7V0h23.1L740,90.5l32.5-90.3V0H798V1.5z" />
+                        </g>
+                    </svg>
+                </a></div>
+            <ul id="gnb">
+                <li><a href="./sub/about.html">ABOUT</a></li>
+                <li><a href="./sub/shop.html">SHOP</a>
+                    <div class="sub_box">
+                        <ul class="sub_gnb">
+                            <li><a href="./sub/shop_bodycare.html">body care</a></li>
+                            <li><a href="#">hand care</a></li>
+                            <li><a href="#">hair care</a></li>
+                            <li><a href="#">home & perfume</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub_bg"></div>
+                </li>
+                <li><a href="./sub/membership.html">MEMBERSHIP</a></li>
+                <li><a href="./sub/event.html">EVENT</a></li>
+                <li><a href="./sub/community_notice.html">COMMUNITY</a>
+                    <div class="sub_box">
+                        <ul class="sub_gnb">
+                            <li><a href="./sub/community_notice.html">notice</a></li>
+                            <li><a href="./sub/community_faq.html">faq</a></li>
+                            <li><a href="#">1:1문의</a></li>
+                        </ul>
+                    </div>
+                    <div class="sub_bg"></div>
+                </li>
+            </ul>
+            <ul class="link">
+                <li class="search"><a href="#"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 384 384"
+                            style="enable-background:new 0 0 384 384;" xml:space="preserve">
+
+                            <path class="st0" d="M216.9,0.2c-92.3,0-167.4,75.1-167.4,167.4c0,37.8,12.6,72.6,33.7,100.7L7.2,344.2c-9,9-9,23.5,0,32.5
+                   c4.5,4.5,10.4,6.7,16.3,6.7s11.8-2.2,16.3-6.7l75.9-75.9c28.1,21.4,63.2,34.2,101.2,34.2c92.3,0,167.4-75.1,167.4-167.4
+                   C384.3,75.3,309.2,0.2,216.9,0.2z M216.9,288.4c-66.6,0-120.8-54.2-120.8-120.8S150.3,46.8,216.9,46.8S337.7,101,337.7,167.6
+                   S283.5,288.4,216.9,288.4z" />
+                        </svg>
+                    </a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">CART</a></li>
+            </ul>
+        </div><!--header_inner-->
+
+
+        <!--여기부터 필요구조 시작-->
+
+        <div class="slide-open" id="slide-open">
+            <span class="burgur" id="burgur">
+                <span class="top-line"></span>
+                <span class="bot-line"></span>
+            </span>
+        </div><!--slide-open-->
+        <div class="slide" id="slide">
+            <div class="login_box">
+                <p class="">Lepoem에<br>
+                    로그인 해주세요.</p>
+                <a href="#" class="join">JOIN</a><a href="#" class="login">LOGIN</a>
+            </div>
+            <ul>
+                <li><a href="./sub/about.html">ABOUT</a></li>
+                <li><a href="./sub/shop.html">SHOP</a></li>
+                <li><a href="./sub/membership.html">MEMBERSHIP</a></li>
+                <li><a href="./sub/event.html">EVENT</a></li>
+                <li><a href="./sub/community_notice.html">COMMUNITY</a></li>
+            </ul>
+        </div><!--slide-->
+        <!--필요구조 끝-->
+    </div><!--header-->
+
+    <div id="main_banner">
+        <!-- Swiper -->
+        <div class="swiper mb">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide mb_bg1">
+                    <div class="mb_box">
+                        <div class="mb_text">
+                            <h2 class="mb_sub_title">limited edition
+                            </h2>
+                            <h1 class="mb_title">spring<br>
+                                british rose</h1>
+                            <p>사랑 가득한 르포엠에서만 볼 수 있는 스프링 리미티드 에디션</p>
+                        </div>
+                        <div class="mb_img"><img src="./images/main_banner01_p.png" alt="메인제품이미지"></div>
+                    </div><!--mb_box-->
+                </div>
+                <div class="swiper-slide mb_bg2">
+                    <div class="mb_box">
+                        <div class="mb_text">
+                            <h2 class="mb_sub_title">soothing the skin
+                            </h2>
+                            <h1 class="mb_title">aloe vara<br>
+                                shoothing gel</h1>
+                            <p>제주산청정알로에베라잎즙 99% 함유 </p>
+                        </div>
+                        <div class="mb_img"><img src="./images/main_banner02_p.png" alt="메인제품이미지"></div>
+                    </div><!--mb_box-->
+                </div>
+            </div>
+            <div class="swiper-scrollbar banner_scroll"></div>
+        </div>
+    </div><!--main_banner-->
+
+    <div id="best_seller">
+        <!-- Swiper -->
+        <div class="best_seller_inner">
+            <div class="best_seller_title">
+                <h1>BEST<br>
+                    SELLER</h1>
+                <p class="sub_title">지금 가장 사랑받는<br>
+                    인기 상품들을 만나보세요.</p>
+            </div>
+            <div class="best_seller_title_mo">
+                <h1>BEST SELLER</h1>
+                <p class="sub_title">지금 가장 사랑받는<br>
+                    인기 상품들을 만나보세요.</p>
+            </div>
+            <div class="swiper bs">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div>
+                            <a href="#"><img src="./images/p_handcream_ro.jpg" alt="제품이미지">
+                                <img src="./images/p_handcream_ro_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">브리티쉬 로즈 핸드크림 30ml</h2>
+                        <h1 class="bs_price">9,500원</h1>
+
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_bodymist_mg.jpg"
+                                    alt="제품이미지">
+                                <img src="./images/p_bodymist_mg_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">모닝 글로리 로즈 바디 미스트 30ml</h2>
+                        <h1 class="bs_price">22,000원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_bodyscrub_ro.jpg"
+                                    alt="제품이미지"><img src="./images/p_bodyscrub_ro_on.jpg" alt="제품이미지"
+                                    class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">브리티쉬 로즈 바디 스크럽 200ml</h2>
+                        <h1 class="bs_price">15,000원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_bodywash_ro.jpg"
+                                    alt="제품이미지">
+                                <img src="./images/p_bodywash_ro_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">브리티쉬 로즈 바디워시 250ml</h2>
+                        <h1 class="bs_price">16,000원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_handsoap_mg.jpg"
+                                    alt="제품이미지">
+                                <img src="./images/p_handsoap_mg_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">모닝글로리 핸드 솝 100g</h2>
+                        <h1 class="bs_price">8,500원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_bodyoil_ro.jpg"
+                                    alt="제품이미지">
+                                <img src="./images/p_bodyoil_ro_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">브리티쉬 바디오일 30ml</h2>
+                        <h1 class="bs_price">24,000원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_sampoo_mg.jpg"
+                                    alt="제품이미지">
+                                <img src="./images/p_sampoo_mg_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">모닝 글로리 샴푸 30ml</h2>
+                        <h1 class="bs_price">17,500원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><a href="#"><img src="./images/p_bodylotion_ro.jpg"
+                                    alt="제품이미지">
+                                <img src="./images/p_bodylotion_ro_on.jpg" alt="제품이미지" class="p_on_img"></a>
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">브리티쉬 로즈 바디로션 200ml</h2>
+                        <h1 class="bs_price">21,000원</h1>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="p_on_box">
+                            <div class="icon_best">BEST</div><img src="./images/p_handwash_ro.jpg" alt="제품이미지">
+                            <img src="./images/p_handwash_ro_on.jpg" alt="제품이미지" class="p_on_img">
+                            <ul class="p_on">
+                                <li><a href="#">구매하기</a></li>
+                                <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                                <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                            </ul>
+                        </div><!--p_on_box-->
+                        <h2 class="bs_title">브리티쉬 로즈 핸드 워시 275ml</h2>
+                        <h1 class="bs_price">17,500원</h1>
+                    </div>
+                </div><!--swiper-wrapper-->
+                <div class="swiper-scrollbar"></div>
+            </div><!--swiper bs-->
+            <!-- 화살표 -->
+            <div class="swiper-button-next bs_next"></div>
+            <div class="swiper-button-prev bs_prev"></div>
+        </div><!--best_seller_inner-->
+    </div><!--best_seller-->
+    <div id="product_banner">
+        <ul>
+            <li class="product_bn1">
+                <h1>BODY CARE</h1>
+                <p>자연이 선사한 다양한 향과 부드럽고<br>풍부한 거품으로 기분좋은 샤워를 시작하세요.</p>
+                <a href="#" class="btn_more"><span>view more</span></a>
+            </li>
+            <li class="product_bn2">
+                <h1>HAND CARE</h1>
+                <p>아름다운 손 관리를 위한 핸드 전용 제품으로<br>건강한 손과 손톱을 가꾸세요.</p>
+                <a href="#" class="btn_more"><span>view more</span></a>
+            </li>
+            <li class="product_bn3">
+                <h1>PERFUME</h1>
+                <p>동물을 해치지 않은 화이트 머스크 향과<br>자연에서 추출한 다양한 향을 즐겨보세요.</p>
+                <a href="#" class="btn_more"><span>view more</span></a>
+            </li>
+        </ul>
+    </div><!-- product_banner -->
+    <!-- product_slide -->
+    <div id="product_slide">
+        <div class="swiper ps">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide product_bn1">
+                    <a href="#">
+                        <h1>BODY CARE</h1>
+                        <p>자연이 선사한 다양한 향과 부드럽고<br>풍부한 거품으로 기분좋은 샤워를<br>시작하세요.</p>
+                        <p class="btn_more">view more</p>
+                    </a>
+                </div>
+                <div class="swiper-slide product_bn2">
+                    <a href="#">
+                        <h1>HAND CARE</h1>
+                        <p>아름다운 손 관리를 위한<br> 핸드 전용 제품으로<br>건강한 손과 손톱을 가꾸세요.</p>
+                        <p class="btn_more">view more</p>
+                    </a>
+                </div>
+                <div class="swiper-slide product_bn3">
+                    <a href="#">
+                        <h1>PERFUME</h1>
+                        <p>동물을 해치지 않은 화이트 머스크<br>향과 자연에서 추출한 다양한 향을<br>즐겨보세요.</p>
+                        <p class="btn_more">view more</p>
+                    </a>
+                </div>
+            </div>
+            <!-- 화살표 -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+
+    </div><!--product_slide-->
+    <div id="md_pick">
+        <div class="md_pick_inner">
+            <div class="title">
+                <h1>MD PICK</h1>
+                <p class="sub_title">MD가 직접 추천 상품, 믿고 구매하세요.</p>
+            </div>
+            <div class="md_content_inner">
+                <video src="./video/main_video.mp4" autoplay muted loop playsinline></video>
+
+                <div class="md_product">
+                    <ul>
+                        <li>
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_handwash_ro.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">브리티쉬 핸드 워시 275ml</h2>
+                                <h1 class="md_price">15,000원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart_s"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_perfume_ro.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">브리티쉬 향수 30ml</h2>
+                                <h1 class="md_price">36,000원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart_s"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_conditioner_mg.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">모닝글로리 컨디셔너 200ml</h2>
+                                <h1 class="md_price">17,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart_s"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_soothinggell_al.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">알로에베라 수딩젤 150ml</h2>
+                                <h1 class="md_price">22,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart_s">
+                                <a href="#"><img src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_handcream_mg.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">모닝글로리 핸드 크림 30ml</h2>
+                                <h1 class="md_price">9,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart_s">
+                                <a href="#"><img src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_handsoap_ro.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">브리티쉬 로즈 핸드 솝 100g</h2>
+                                <h1 class="md_price">8,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart_s">
+                                <a href="#"><img src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </li>
+                    </ul>
+                </div><!--md_product-->
+
+            </div><!--md_content_inner-->
+            <!-- md_pick_slide -->
+            <div id="md_pick_slide">
+                <div class="swiper md">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_handwash_ro.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">브리티쉬 로즈 핸드워시 275ml</h2>
+                                <h1 class="md_price">15,000원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_perfume_ro.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">브리티쉬 향수 30ml</h2>
+                                <h1 class="md_price">36,000원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_conditioner_mg.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">모닝글로리 컨디셔너 200ml</h2>
+                                <h1 class="md_price">17,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_soothinggell_al.jpg" alt=" 제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">알로에베라 수딩젤 150ml</h2>
+                                <h1 class="md_price">22,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_handcream_mg.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">모닝글로리 핸드크림 30ml</h2>
+                                <h1 class="md_price">9,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="md_img">
+                                <a href="#"><img src="./images/md_handsoap_ro.jpg" alt="제품이미지"></a>
+                            </div>
+                            <div class="md_text">
+                                <h2 class="md_title">브리티쉬 핸드 솝 100g</h2>
+                                <h1 class="md_price">8,500원</h1>
+                                <img src="./images/icon_heart_s.png" alt="찜하기" class="icon_heart"><a href="#"><img
+                                        src="./images/icon_s_cart.png" alt="카트담기"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 화살표 -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div><!--md_pick_slide-->
+        </div><!--md_pick_inner-->
+    </div><!--md_pick-->
+    <div id="new">
+        <div class="title">
+            <h1>WHAT'S NEW</h1>
+            <p class="sub_title">주목! 신상이 궁금해? 설레는 신상으로 채워지는 작은 행복</p>
+        </div>
+        <ul>
+            <li>
+                <div class="new_on_box">
+                    <div class="icon_best">NEW</div>
+                    <a href="#"><img src="./images/new_bodymist_mg.jpg" alt="제품이미지"><img
+                            src="./images/new_bodymist_mg_on.jpg" alt="제품이미지" class="new_on_img"></a>
+                    <ul class="new_on">
+                        <li><a href="#">구매하기</a></li>
+                        <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                        <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                    </ul>
+                </div><!--new_on_box-->
+                <h2 class="new_title">모닝글로리 로즈 바디 미스트 30ml</h2>
+                <h1 class="new_price">22,000원</h1>
+            </li>
+            <li>
+                <div class="new_on_box">
+                    <div class="icon_best">NEW</div>
+                    <a href="#"><img src="./images/new_shampoo_mg.jpg" alt="제품이미지"><img
+                            src="./images/new_shampoo_mg_on.jpg" alt="제품이미지" class="new_on_img"></a>
+                    <ul class="new_on">
+                        <li><a href="#">구매하기</a></li>
+                        <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                        <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                    </ul>
+                </div><!--new_on_box-->
+                <h2 class="new_title">모닝글로리 샴푸 250ml</h2>
+                <h1 class="new_price">17,500원</h1>
+            </li>
+            <li>
+                <div class="new_on_box">
+                    <div class="icon_best">NEW</div>
+                    <a href="#"><img src="./images/new_handsoap_mg.jpg" alt="제품이미지"><img
+                            src="./images/new_handsoap_mg_on.jpg" alt="제품이미지" class="new_on_img"></a>
+                    <ul class="new_on">
+                        <li><a href="#">구매하기</a></li>
+                        <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                        <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                    </ul>
+                </div><!--new_on_box-->
+                <h2 class="new_title">모닝글로리 핸드 솝 100g</h2>
+                <h1 class="new_price">8,500원</h1>
+            </li>
+            <li>
+                <div class="new_on_box">
+                    <div class="icon_best">NEW</div>
+                    <a href="#"><img src="./images/new_diffuser_mg.jpg" alt="제품이미지"><img
+                            src="./images/new_diffuser_mg_on.jpg" alt="제품이미지" class="new_on_img"></a>
+                    <ul class="new_on">
+                        <li><a href="#">구매하기</a></li>
+                        <li><img src="./images/icon_heart.png" alt="찜하기" class="icon_heart"></li>
+                        <li><a href="#"><img src="./images/icon_cart.png" alt="카트담기"></a></li>
+                    </ul>
+                </div><!--new_on_box-->
+                <h2 class="new_title">모닝글로리 디퓨저 120ml</h2>
+                <h1 class="new_price">14,500원</h1>
+            </li>
+        </ul>
+    </div><!--new-->
+
+    <div id="slogan">
+        <div class="slogan_text">
+            <h1>First step towards nature</h1>
+            <p>자연의 질감, 자연의 소재, 자연의 향으로 내일상에 여유를 더해보세요.</p>
+        </div>
+    </div><!--slogan-->
+
+    <div id="about">
+        <div class="about_inner">
+            <div class="brand">
+                <div class="about_text">
+                    <h1>Brand story</h1>
+                    <p>자연 본연의 아름다움, 르포엠을 소개합니다.</p>
+                    <a href="#" class="btn_more_w"><span>view more</span></a>
+                </div>
+            </div>
+            <div class="membership">
+                <div class="about_text">
+                    <h1>Membership</h1>
+                    <p>르포엠 회원만이 누릴 수 있는 다양하고, 풍성한 혜택을 지금 만나보세요.</p>
+                    <a href="#" class="btn_more_w"><span>view more</span></a>
+                </div>
+            </div>
+        </div>
+        <!-- move_text_box -->
+        <div id="move_text">
+            <div class="text">
+                <p>A journey to find my own scent</p>
+                <p>A journey to find my own scent</p>
+                <p>A journey to find my own scent</p>
+                <p>A journey to find my own scent</p>
+                <p>A journey to find my own scent</p>
+                <p>A journey to find my own scent</p>
+                <p>A journey to find my own scent</p>
+            </div>
+        </div>
+    </div><!--about-->
+
+
+    <div id="sns">
+        <div class="title">
+            <h1>INSTAGRAM</h1>
+            <p class="sub_title">공식 인스타그램에서 다양한 새 소식을 확인해보세요.</p>
+        </div>
+        <ul class="sns_img">
+            <li><a href="#"><img src="./images/sns_img01.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img02.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img03.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img04.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img05.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img06.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img07.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img08.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img09.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img10.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img11.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img12.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img13.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img14.jpg" alt=""></a></li>
+        </ul>
+        <ul class="sns_img_mo">
+            <li><a href="#"><img src="./images/sns_img01.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img02.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img03.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img04.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img05.jpg" alt=""></a></li>
+            <li><a href="#"><img src="./images/sns_img06.jpg" alt=""></a></li>
+        </ul>
+    </div>
+    <div id="footer">
+        <div class="footer_inner">
+            <ul class="sns_link">
+                <li class="facebook_icon"><a href="#"><img src="./images/icon_facebook_l.png" alt="페이스북 바로가기"></a></li>
+                <li class="instagram_iocn"><a href="#"><img src="./images/icon_instagram_l.png" alt="인스타그램 바로가기"></a>
+                </li>
+                <li class="youtube_icon"><a href="#"><img src="./images/icon_youtube_l.png" alt="유튜브 바로가기"></a></li>
+            </ul>
+            <ul class="info">
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">이용약관</a></li>
+                <li><a href="#">이메일무단수집금지</a></li>
+            </ul>
+            <ul class="customer">
+                <li>고객센터&nbsp;&nbsp;080-123-4567</li>
+                <li>이메일&nbsp;&nbsp;lepoem@lepoem.com</li>
+            </ul>
+            <p class="f_add">대표 : 김혜란 서울시 강남구 학동로 401 10층 사업자등록번호 : 108-86-00365 통신판매업신고번호 : 제2022-서울강남-3344호</p>
+            <p class="copyright">COPYRIGHT © lepoem ALL RIGHTS RESERVED.</p>
+        </div>
+    </div>
+    <div class="top">
+        <a href="#main_banner"><img src="./images/top_arrow.png" alt="Back to top"></a>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 라이브러리 파일 -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!--스크립트 파일-->
+    <script src="./js/script.js"></script>
+    <script src="./js/hamburger.js"></script>
+
+</body>
+
+</html>
