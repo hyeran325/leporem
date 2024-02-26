@@ -85,10 +85,10 @@ var swiper = new Swiper(".mb", {
         el: ".swiper-scrollbar",
         hide: false,
     },
-    // autoplay: {
-    //     delay: 3000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
     speed: 1000
 });
 
