@@ -621,7 +621,6 @@ body {
 
 .md_content_inner video {
     width: 795px;
-    height: 498px;
 }
 
 .md_product ul li .md_text {
@@ -1386,19 +1385,15 @@ body {
         padding-bottom: 60px;
     }
 
-
     .md_content_inner {
         display: block;
-
-    }
-
-    .md_video {
         text-align: center;
     }
 
-    .md_video img {
+    .md_content_inner video {
         width: 95%;
     }
+
 
     /* md_product */
     .md_product {
@@ -1855,15 +1850,11 @@ body {
 
     .md_content_inner {
         display: block;
-
-    }
-
-    .md_video {
         text-align: center;
     }
 
-    .md_video img {
-        max-width: 100%;
+    .md_content_inner video {
+        width: 90%;
     }
 
     /* md_slide */
